@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script>
+//에러
+//"<h3>Here's a headline!</h3>".escape();
+
+// escape 함수는 전역함수로 제공
+var escaped = escape("<h3>Here's a headline!</h3>");
+var unescaped = unescape(escaped);
+
+// URL 엔코딩
+var url = "http://mysite.com/?stuff=\"안 대혁!&bar=";
+var encodedURL = encodeURI(url);
+var decodedURL = decodeURI(encodedURL);
+alert(encodedURL);
+console.log(encodedURL)
+
+</script>
+</head>
+<body>
+</body>
+</html>

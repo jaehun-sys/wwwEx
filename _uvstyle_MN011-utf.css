@@ -1,0 +1,529 @@
+A:link {
+	FONT-SIZE: 9pt; COLOR: #663300; FONT-FAMILY: "굴림체", "Arial", "Verdana", "Helvetica"; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #663300; FONT-FAMILY: "굴림체", "Arial", "Verdana", "Helvetica"; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #663300; FONT-FAMILY: "굴림체", "Arial", "Verdana", "Helvetica"; TEXT-DECORATION: underline
+}
+BODY {
+	FONT-SIZE: 9pt; COLOR: #222222; FONT-FAMILY: "굴림체"
+}
+TR {
+	HEIGHT: 22px
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #222222; FONT-FAMILY: "굴림체"
+}
+INPUT {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체
+}
+INPUT.pwd {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체
+}
+SELECT {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체
+}
+TEXTAREA {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체
+}
+.dl {
+	TEXT-ALIGN: left
+}
+.dc {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.dr {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.pl {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; TEXT-ALIGN: left
+}
+.pc {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.pr {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.noel {
+	BORDER-RIGHT: #c8c8c8 1px solid; BORDER-TOP: #c8c8c8 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c8c8c8 1px solid; COLOR: #464646; BORDER-BOTTOM: #c8c8c8 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: left
+}
+.vwml {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; COLOR: #464646; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: #ffffeb; TEXT-ALIGN: left
+}
+.vwol {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; COLOR: #464646; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: left
+}
+.inml {
+	BORDER-RIGHT: #9e9e9e 1px solid; BORDER-TOP: #9e9e9e 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #9e9e9e 1px solid; COLOR: #464646; BORDER-BOTTOM: #9e9e9e 1px solid; FONT-FAMILY: "굴림체"; BACKGROUND-COLOR: #f9fcff; TEXT-ALIGN: left
+}
+.inol {
+	BORDER-RIGHT: #9e9e9e 1px solid; BORDER-TOP: #9e9e9e 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #9e9e9e 1px solid; COLOR: #464646; BORDER-BOTTOM: #9e9e9e 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: left
+}
+.notl {
+	BORDER-RIGHT: #9e9e9e 1px; BORDER-TOP: #9e9e9e 1px; FONT-SIZE: 9pt; BORDER-LEFT: #9e9e9e 1px; COLOR: #464646; BORDER-BOTTOM: #9e9e9e 1px; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+.not100l {
+	BORDER-RIGHT: transparent 1px; BORDER-TOP: transparent 1px; FONT-SIZE: 9pt; BORDER-LEFT: transparent 1px; WIDTH: 100%; BORDER-BOTTOM: transparent 1px; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+.not100c {
+	BORDER-RIGHT: transparent 1px; BORDER-TOP: transparent 1px; FONT-SIZE: 9pt; BORDER-LEFT: transparent 1px; WIDTH: 100%; BORDER-BOTTOM: transparent 1px; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+.not100r {
+	BORDER-RIGHT: transparent 1px; BORDER-TOP: transparent 1px; FONT-SIZE: 9pt; BORDER-LEFT: transparent 1px; WIDTH: 100%; BORDER-BOTTOM: transparent 1px; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right
+}
+.noec {
+	BORDER-RIGHT: #c8c8c8 1px solid; BORDER-TOP: #c8c8c8 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c8c8c8 1px solid; COLOR: #464646; BORDER-BOTTOM: #c8c8c8 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.vwmc {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: #ffffeb; TEXT-ALIGN: center
+}
+.vwoc {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.inmc {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; COLOR: #464646; BORDER-BOTTOM: 1px solid; FONT-FAMILY: "굴림체"; BACKGROUND-COLOR: #f9fcff; TEXT-ALIGN: center
+}
+.inoc {
+	BORDER-RIGHT: #9e9e9e 1px solid; BORDER-TOP: #9e9e9e 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #9e9e9e 1px solid; COLOR: #464646; BORDER-BOTTOM: #9e9e9e 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.notc {
+	BORDER-RIGHT: #9e9e9e 1px; BORDER-TOP: #9e9e9e 1px; FONT-SIZE: 9pt; BORDER-LEFT: #9e9e9e 1px; COLOR: #464646; BORDER-BOTTOM: #9e9e9e 1px; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+.noer {
+	BORDER-RIGHT: #c8c8c8 1px solid; BORDER-TOP: #c8c8c8 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c8c8c8 1px solid; COLOR: #464646; BORDER-BOTTOM: #c8c8c8 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.vwmr {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: #ffffeb; TEXT-ALIGN: right
+}
+.vwor {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.inmr {
+	BORDER-RIGHT: #9e9e9e 1px solid; BORDER-TOP: #9e9e9e 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #9e9e9e 1px solid; COLOR: #464646; BORDER-BOTTOM: #9e9e9e 1px solid; FONT-FAMILY: "굴림체"; BACKGROUND-COLOR: #f9fcff; TEXT-ALIGN: right
+}
+.inor {
+	BORDER-RIGHT: #9e9e9e 1px solid; BORDER-TOP: #9e9e9e 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #9e9e9e 1px solid; COLOR: #464646; BORDER-BOTTOM: #9e9e9e 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.notr {
+	BORDER-RIGHT: #9e9e9e 1px; BORDER-TOP: #9e9e9e 1px; FONT-SIZE: 9pt; BORDER-LEFT: #9e9e9e 1px; COLOR: #464646; BORDER-BOTTOM: #9e9e9e 1px; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: transparent; TEXT-ALIGN: right
+}
+.noe100p {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체
+}
+.noe100pl {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: left
+}
+.noe100pc {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.noe100pr {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.vwm100p {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid
+}
+.vwm100pl {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: left
+}
+.vwm100pc {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.vwm100pr {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.vwo100p {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체
+}
+.vwo100pl {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: left
+}
+.vwo100pc {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.vwo100pr {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.inm100p {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체
+}
+.inm100pl {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: left
+}
+.inm100pc {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.inm100pr {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.ino100p {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체
+}
+.ino100pl {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: left
+}
+.ino100pc {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: center
+}
+.ino100pr {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: 1px solid; WIDTH: 100%; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; TEXT-ALIGN: right
+}
+.stdl {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.stdc {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.stdr {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: right
+}
+.stpl {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.stpc {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.stpr {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: right
+}
+.gtdl {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.gtdc {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.gtdr {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: right
+}
+.gtpl {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.gtpc {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.gtpr {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; TEXT-ALIGN: right
+}
+/****************일반버튼***********************************************************************************/
+.btn {
+	FONT-SIZE: 9pt; CURSOR: hand;  HEIGHT: 22px; 
+}
+
+/****************disable 버튼***********************************************************************************/
+.btnd {
+	FONT-SIZE: 9pt; COLOR: #878585; HEIGHT: 22px; 
+}
+
+/****************탭버튼 수정***********************************************************************************/
+.btnpgon {
+	BORDER-RIGHT: #9CB54F 1px solid;
+	BORDER-TOP: #9CB54F 1px solid;
+	FONT-COLOR:#ffffff;
+	FONT-SIZE: 9pt;
+	BORDER-LEFT: #9CB54F 1px solid;
+	CURSOR: hand;
+	HEIGHT: 22px;
+	BACKGROUND-COLOR: #9CB54F;
+	TEXT-ALIGN: center;
+	color: #FFFFFF;
+}
+.btnpgoff {
+	FONT-SIZE: 9pt;
+	CURSOR: hand;
+	HEIGHT: 22px;
+	BACKGROUND-COLOR: #E9F1D0;
+	TEXT-ALIGN: center;
+	border: 1px solid #9CB54F;
+}
+.combon {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 9pt; VERTICAL-ALIGN: middle; OVERFLOW: hidden; BORDER-LEFT: 1px solid; COLOR: black; BORDER-BOTTOM: 1px solid; FONT-FAMILY: 굴림체; HEIGHT: 21px; BACKGROUND-COLOR: #ffffff
+}
+.combom {
+	FONT-SIZE: 9pt; VERTICAL-ALIGN: middle; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; COLOR: black; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: 굴림체; HEIGHT: 19px; BACKGROUND-COLOR: transparent
+}
+.tbwd {
+	WIDTH: 770px
+}
+
+/*******************검색테이블 수정함************************************************************************/
+.tbwinset {
+	WIDTH: 770px; BACKGROUND-COLOR: #9CB54F
+}
+/*******************검색테이블 수정함************************************************************************/
+.tbwoutset {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px ; PADDING-TOP: 2px; PADDING-BOTTOM: 2px ;
+	WIDTH: 770px;
+	BACKGROUND-COLOR: #F7F7F7;
+	border: 1px solid AFAFAF;
+}
+.tbd {
+	BACKGROUND-COLOR: #9CB54F
+}
+.tbd100p {
+	WIDTH: 100%; BACKGROUND-COLOR: #000000
+}
+.tboutset {
+	BACKGROUND-COLOR: #ffffff
+}
+.tboutset100p {
+	WIDTH: 100%; BACKGROUND-COLOR: #ffffff
+}
+.tbld {
+	BACKGROUND-COLOR: #9CB54F; cellpadding: 0; cellspacing: 10px
+}
+.tr1 {
+	FONT-SIZE: 9pt; CURSOR: hand; FONT-FAMILY: 굴림체; HEIGHT: 22px; BACKGROUND-COLOR: #eff7f7
+}
+.tr2 {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff
+}
+.tr3 {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; BACKGROUND-COLOR: #eff7f7
+}
+.mstr {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; BACKGROUND-COLOR: #c2e1ee
+}
+.etr {
+	FONT-SIZE: 9pt; FONT-FAMILY: 굴림체; HEIGHT: 22px; BACKGROUND-COLOR: #f5ccb0
+}
+.distroff {
+	FONT-SIZE: 9pt; COLOR: gray; FONT-FAMILY: 굴림체; BACKGROUND-COLOR: #ffffff
+}
+.distron {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: gray; FONT-FAMILY: 굴림체; HEIGHT: 22px; BACKGROUND-COLOR: #eff7f7
+}
+.trsubtotall {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ebebeb; TEXT-ALIGN: left
+}
+.trsubtotalc {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ebebeb; TEXT-ALIGN: center
+}
+.trsubtotalr {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ebebeb; TEXT-ALIGN: right
+}
+.trtotall {
+	HEIGHT: 22px; BACKGROUND-COLOR: #aaaaaa; TEXT-ALIGN: left
+}
+.trtotalc {
+	HEIGHT: 22px; BACKGROUND-COLOR: #aaaaaa; TEXT-ALIGN: center
+}
+.trtotalr {
+	HEIGHT: 22px; BACKGROUND-COLOR: #aaaaaa; TEXT-ALIGN: right
+}
+.tdtdl {
+	FONT-SIZE: 9pt; HEIGHT: 22px; BACKGROUND-COLOR: #E9F1D0; TEXT-ALIGN: left
+}
+.tdtdc {
+	FONT-SIZE: 9pt; HEIGHT: 22px; BACKGROUND-COLOR: #E9F1D0; TEXT-ALIGN: center
+}
+.tdtdr {
+	FONT-SIZE: 9pt; HEIGHT: 22px; BACKGROUND-COLOR: #E9F1D0; TEXT-ALIGN: right
+}
+.tdtdlink {
+	FONT-SIZE: 9pt; CURSOR: hand; LINE-HEIGHT: 22px; HEIGHT: 22px; BACKGROUND-COLOR: #E9F1D0; TEXT-DECORATION: underline
+}
+.tdtpl {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 20px; BACKGROUND-COLOR: #E9F1D0; TEXT-ALIGN: left
+}
+.tdtpc {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 20px; BACKGROUND-COLOR: #E9F1D0; TEXT-ALIGN: center
+}
+.tdtpr {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 20px; BACKGROUND-COLOR: #E9F1D0; TEXT-ALIGN: right
+}
+.tdtplink {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; CURSOR: hand; LINE-HEIGHT: 20px; HEIGHT: 20px; BACKGROUND-COLOR: #E9F1D0; TEXT-DECORATION: underline
+}
+.tdstdl {
+	FONT-SIZE: 9pt; HEIGHT: 22px; BACKGROUND-COLOR: #dcdcdc; TEXT-ALIGN: left
+}
+.tdstdc {
+	FONT-SIZE: 9pt; HEIGHT: 22px; BACKGROUND-COLOR: #dcdcdc; TEXT-ALIGN: center
+}
+.tdstdr {
+	FONT-SIZE: 9pt; HEIGHT: 22px; BACKGROUND-COLOR: #dcdcdc; TEXT-ALIGN: right
+}
+.tdstdlink {
+	FONT-SIZE: 9pt; CURSOR: hand; LINE-HEIGHT: 22px; HEIGHT: 22px; BACKGROUND-COLOR: #dcdcdc; TEXT-DECORATION: underline
+}
+.tdstpl {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 22px; BACKGROUND-COLOR: #dcdcdc; TEXT-ALIGN: left
+}
+.tdstpc {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 22px; BACKGROUND-COLOR: #dcdcdc; TEXT-ALIGN: center
+}
+.tdstpr {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 22px; BACKGROUND-COLOR: #dcdcdc; TEXT-ALIGN: right
+}
+.tdstplink {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; CURSOR: hand; LINE-HEIGHT: 22px; HEIGHT: 22px; BACKGROUND-COLOR: #dcdcdc; TEXT-DECORATION: underline
+}
+
+/******01- 보라테이블제목 -일반적**********************/
+.tdbtdl {
+	FONT-SIZE: 9pt; COLOR:#222222;  HEIGHT: 20px; BACKGROUND-COLOR:  #C1D77C ; TEXT-ALIGN: left
+}
+
+.tdbtdc {
+	FONT-SIZE: 9pt; COLOR:#222222;  HEIGHT: 20px; BACKGROUND-COLOR:  #C1D77C ; TEXT-ALIGN: center
+}
+.tdbtdr {
+	FONT-SIZE: 9pt; COLOR:#222222;  HEIGHT: 20px; BACKGROUND-COLOR:  #C1D77C ; TEXT-ALIGN: right
+}
+.tdbtdlink {
+	FONT-SIZE: 9pt; COLOR:#222222; CURSOR: hand; LINE-HEIGHT: 20px; HEIGHT: 20px; BACKGROUND-COLOR:  #C1D77C ; TEXT-DECORATION: underline
+}
+/******01- 보라테이블제목 padding값이 있음 **********************/
+.tdbtpl {
+	FONT-SIZE: 9pt; COLOR:#ffffff; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 20px; BACKGROUND-COLOR:#9CB54F; TEXT-ALIGN: left
+}
+.tdbtpc {
+	FONT-SIZE: 9pt; COLOR:#ffffff; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 20px; BACKGROUND-COLOR:#9CB54F; TEXT-ALIGN: center
+}
+.tdbtpr {
+		FONT-SIZE: 9pt; COLOR:#ffffff; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 20px; BACKGROUND-COLOR:#9CB54F;TEXT-ALIGN: right
+}
+.tdbtplink {
+		FONT-SIZE: 9pt; COLOR:#ffffff; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 20px; BACKGROUND-COLOR:#9CB54F; TEXT-DECORATION: underline
+}
+.tdvdtl {
+	HEIGHT: 22px; TEXT-ALIGN: left
+}
+.tdvdtc {
+	HEIGHT: 22px; TEXT-ALIGN: center
+}
+.tdvdtr {
+	HEIGHT: 22px; TEXT-ALIGN: right
+}
+.tdvptl {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.tdvptc {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.tdvptr {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; HEIGHT: 22px; TEXT-ALIGN: right
+}
+.tdvdl {
+	HEIGHT: 22px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.tdvdc {
+	HEIGHT: 22px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: center
+}
+.tdvdr {
+	HEIGHT: 22px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: right
+}
+.tdvdlink {
+	CURSOR: hand; LINE-HEIGHT: 22px; HEIGHT: 22px; BACKGROUND-COLOR: #f7f7f7; TEXT-DECORATION: underline
+}
+
+.tdvpl {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; HEIGHT: 22px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.tdvpc {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; HEIGHT: 22px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: center
+}
+.tdvpr {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; HEIGHT: 22px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: right
+}
+.tdvplink {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; CURSOR: hand; LINE-HEIGHT: 22px; HEIGHT: 22px; BACKGROUND-COLOR: #f7f7f7; TEXT-DECORATION: underline
+}
+.tdvdwl {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.tdvdwc {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.tdvdwr {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right
+}
+.tdvpwl {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.tdvpwc {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.tdvpwr {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right
+}
+/***************검색테이블 내의 글자칼라 하얀->검정으로 수정**********************************/
+.tdvwl {
+	COLOR: #000000; HEIGHT: 22px; TEXT-ALIGN: left 
+}
+.tdvwc {
+	COLOR: #ffffff; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.tdvwr {
+	COLOR: #ffffff; HEIGHT: 22px; TEXT-ALIGN: right
+}
+.tdvwlink {
+	CURSOR: hand; COLOR: #000000; LINE-HEIGHT: 22px; HEIGHT: 22px; TEXT-DECORATION: underline
+}
+.tdlavdwl {
+	VERTICAL-ALIGN: top; OVERFLOW: hidden; BORDER-LEFT: black 1px solid; LINE-HEIGHT: 22px; BORDER-BOTTOM: #777777 1px solid; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.tdlavdwc {
+	VERTICAL-ALIGN: top; OVERFLOW: hidden; BORDER-LEFT: black 1px solid; LINE-HEIGHT: 22px; BORDER-BOTTOM: #777777 1px solid; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.tdlavdwr {
+	VERTICAL-ALIGN: top; OVERFLOW: hidden; BORDER-LEFT: black 1px solid; LINE-HEIGHT: 22px; BORDER-BOTTOM: #777777 1px solid; HEIGHT: 22px; TEXT-ALIGN: right
+}
+.tdlavpwl {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; VERTICAL-ALIGN: top; OVERFLOW: hidden; BORDER-LEFT: black 1px solid; LINE-HEIGHT: 22px; BORDER-BOTTOM: #777777 1px solid; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.tdlavpwc {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; VERTICAL-ALIGN: top; OVERFLOW: hidden; BORDER-LEFT: black 1px solid; LINE-HEIGHT: 22px; BORDER-BOTTOM: #777777 1px solid; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.tdlavpwr {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; VERTICAL-ALIGN: top; OVERFLOW: hidden; BORDER-LEFT: black 1px solid; LINE-HEIGHT: 22px; BORDER-BOTTOM: #777777 1px solid; HEIGHT: 22px; TEXT-ALIGN: right
+}
+.tdtab {
+	BORDER-RIGHT:gray 1px solid; BORDER-LEFT:gray 1px solid; BORDER-BOTTOM: gray 1px solid
+}
+.tdsubtotall {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ebebeb; TEXT-ALIGN: left
+}
+.tdsubtotalc {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ebebeb; TEXT-ALIGN: center
+}
+.tdsubtotalr {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ebebeb; TEXT-ALIGN: right
+}
+.tdtotall {
+	HEIGHT: 22px; BACKGROUND-COLOR: #aaaaaa; TEXT-ALIGN: left
+}
+.tdtotalc {
+	HEIGHT: 22px; BACKGROUND-COLOR: #aaaaaa; TEXT-ALIGN: center
+}
+.tdtotalr {
+	HEIGHT: 22px; BACKGROUND-COLOR: #aaaaaa; TEXT-ALIGN: right
+}
+.divbody {
+	OVERFLOW-Y: scroll; OVERFLOW-X: hidden; WIDTH: 100%; HEIGHT: 100%
+}
+.p100 {
+	WIDTH: 100%
+}
+.tdsh {
+	HEIGHT: 5px
+}
+.groovetl {
+	BORDER-RIGHT: thin groove; PADDING-RIGHT: 3px; BORDER-TOP: thin groove; PADDING-LEFT: 3px; BORDER-LEFT: thin groove; BORDER-BOTTOM: thin groove; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+} 
+.groovetc {
+	BORDER-RIGHT: thin groove; PADDING-RIGHT: 3px; BORDER-TOP: thin groove; PADDING-LEFT: 3px; BORDER-LEFT: thin groove; BORDER-BOTTOM: thin groove; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.groovetr {
+	BORDER-RIGHT: thin groove; PADDING-RIGHT: 3px; BORDER-TOP: thin groove; PADDING-LEFT: 3px; BORDER-LEFT: thin groove; BORDER-BOTTOM: thin groove; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right
+}
+.groovedl {
+	BORDER-RIGHT: thin groove; PADDING-RIGHT: 3px; BORDER-TOP: thin groove; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: thin groove; PADDING-TOP: 3px; BORDER-BOTTOM: thin groove; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.groovedc {
+	BORDER-RIGHT: thin groove; PADDING-RIGHT: 3px; BORDER-TOP: thin groove; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: thin groove; PADDING-TOP: 3px; BORDER-BOTTOM: thin groove; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.groovedr {
+	BORDER-RIGHT: thin groove; PADDING-RIGHT: 3px; BORDER-TOP: thin groove; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: thin groove; PADDING-TOP: 3px; BORDER-BOTTOM: thin groove; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right
+}

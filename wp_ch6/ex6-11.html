@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+var str = "string1 string2 string3"
+alert( str.length );
+var start = str.indexOf( 'string2' );
+alert( start ); 
+alert( str.substr( start ) );
+// 간단히,
+alert( str.substr( str.indexOf( 'string2' )));
+// str은 변하지 않는다.
+alert( str );
+</script>
+</head>
+<body>
+
+</body>
+</html>
